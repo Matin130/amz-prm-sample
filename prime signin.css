@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 #c4c2c2;
+    color: #111;
+}
+
+h2 {
+    color: #111;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+form {
+    display: block;
+    width: 27%;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #c4c4c4c9;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 0.8em;
+    margin: 20px 0;
+    font-weight: 540;
+}
+
+img {
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid  #8d8d8dc7;
+    border-radius: 3px;
+    margin: 3px 0;
+}
+
+#paw {
+    margin-left: 103px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    background: #f0c14b;
+    border: 1px solid #e77600;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.9;
+}
+
+button:hover, input:hover {
+    border-color: #a88734 #9c7e31 #846a29;
+    box-shadow: 2px 2px 7px 4px rgb(228 121 17 / 50%);
+}
+
+button:focus {
+    border-color: #e77600;
+    
+}
+
+#btn2 {
+    width: 100%;
+    height: 30px;
+    background: #e9e8e8c7;
+    border: 1px solid #8d8d8dc7;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#btn2:hover {
+    background: #b8b8b8c7;
+    box-shadow: none;
+    border-color: none;
+}
+
+#check {
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+#check:hover {
+    box-shadow: none;
+}
+
+#lec {
+    margin: 0;
+}
+
+.line1, .line2, p {
+    display: inline-block;
+    justify-self: center;
+
+}
+
+p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.line1, .line2 {
+    width: 31%;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #929292;
+}
+
+#btm-p {
+    margin: 0 2px;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #2650c4;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d17615;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    margin: 0 10px;
+    font-size: 13px;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #2650c4;
+    cursor: pointer;
+    
+}
+
+footer p {
+    margin-top: 15px;
+}
